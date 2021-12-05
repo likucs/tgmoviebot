@@ -5,29 +5,30 @@ My name is <a href=https://t.me/{}>{}</a>!
 
 <b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Just Add me to Your Group As Admin, Hit The Help Button For More Info..
+
+✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/iAmLiKu1'>ℭ𝐒 ‣ ᏂᎧᏇᏝ</a> </b>"""
+
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: Zaute Km
-➥ Library: Pyrogram
-➥ Language: Python 𝟹
-➥ Data Base: MongoDB
-➥ Bot Server: Railway/Heroku
-➥ Build Status: v1.0.1 [ Beta ]"""
-
+    ABOUT_TXT = """<b>🥱 My Name : see my name on the top
+🕵‍♂ Developer : <a href='https://t.me/iAmLiKu1'>𓆩♡⃤°•°ℭ𝐒 ‣ ᏂᎧᏇᏝ✮͢🦋⃟≛⃝</a>
+📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+🔋 Updates : @cs_cloud </b>"""
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Contact my developer
+<b>🕵‍♂ Developer : <a href='https://t.me/iAmLiKu1'>𓆩♡⃤°•°ℭ𝐒 ‣ ᏂᎧᏇᏝ✮͢🦋⃟≛⃝<</a> </b>
 
 <b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+- <a href='https://t.me/iAmLiKu1'>ℭ𝐒 ‣ ᏂᎧᏇᏝ</a>
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>Movies GROUP</b>
+- <a href='https://t.me/+oMiWi94WoAQ0MmY5'>Movies Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
