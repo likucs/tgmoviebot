@@ -59,7 +59,7 @@ async def save_group(bot, message):
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
             text=f"<b>👋 Hi! {u.mention},</b>🥳ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ🤩 <b>{message.chat.title}</b>\n\n<b>👇Join Movies OTT Channels 👇</b>"
-            disable_web_page_preview = True,
+            disable_web_page_preview = false,
             reply_markup=InlineKeyboardMarkup(zaute))
 
 
