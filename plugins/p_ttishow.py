@@ -58,7 +58,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To Our Group 🤩 <b>{message.chat.title}</b>\n\n<b>👇Join Movies OTT Channels 👇</b>"
+            text=f"<b>👋 Hi! {u.mention},</b>🥳 Welcome To Our Group 🤩 <b>{message.chat.title}</b>\n\n<b>👇Join Movies OTT Channels 👇</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
