@@ -48,7 +48,8 @@ async def save_group(bot, message):
         for u in message.new_chat_members:
             zaute = [[
             InlineKeyboardButton('Movies OTT', url='https://t.me/joinchat/XwtyyrY9RH41YmE1'),
-            InlineKeyboardButton('👉Press Me🥰', url='https://t.me/joinchat/XwtyyrY9RH41YmE1'),
+            InlineKeyboardButton('👉Press Me🥰', url='https://t.me/joinchat/XwtyyrY9RH41YmE1')
+            ],[
             InlineKeyboardButton('Mod Apk', url='https://t.me/cs_cloud'),
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
         ]]
