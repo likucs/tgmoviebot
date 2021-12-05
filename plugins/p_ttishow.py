@@ -47,7 +47,11 @@ async def save_group(bot, message):
     else:
         for u in message.new_chat_members:
             zaute = [[
-            InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
+            InlineKeyboardButton('Movies OTT', url='https://t.me/joinchat/XwtyyrY9RH41YmE1'),
+            InlineKeyboardButton('👉Press Me🥰', url='https://t.me/joinchat/XwtyyrY9RH41YmE1' )
+            ],[
+            InlineKeyboardButton('Mod Apk', url='https://t.me/cs_cloud'),
+            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
         ]]
             if (temp.MELCOW).get('welcome') is not None:
                 try:
@@ -55,7 +59,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
+            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Movies OTT Channels 👇</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
@@ -244,7 +248,7 @@ async def unban_a_user(bot, message):
     
 @Client.on_message(filters.command('users') & filters.user(ADMINS))
 async def list_users(bot, message):
-    # https://t.me/josprojects/
+    # https://t.me/cs_cloud/
     raju = await message.reply('Getting List Of Users')
     users = await db.get_all_users()
     out = "Users Saved In DB Are:\n\n"
